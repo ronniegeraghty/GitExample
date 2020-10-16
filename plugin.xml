@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="GitExample"
+            allowMultiple="true"
+            icon="images/transformation_view.gif"
+            category="com.ibm.hats.rcp.ui.views"
+            class="gitExample.views.MainView"
+            id="GitExample.main">
+      </view>
+   </extension>
+   <extension
+         point="com.ibm.hats.rcp.runtime.rcpApplications">
+      <application
+            viewId="GitExample.main"
+            label="GitExample">
+      </application>
+   </extension>
+
+</plugin>

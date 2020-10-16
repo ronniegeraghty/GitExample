@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><ComponentWidgetList>
+   <components>
+      <component className="com.ibm.hats.transform.components.URLComponent" displayName="URL" helpID="" image="url.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtLinkWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.InputFieldByTextPatternComponent" displayName="%INPUT_FIELD_BY_TEXT_PATTERN_COMPONENT" helpID="com.ibm.hats.doc.hats2758" image="commandLine.gif">
+         <associatedWidgets/>
+      </component>
+      <component className="com.ibm.hats.transform.components.InputFieldBySizePatternComponent" displayName="%INPUT_FIELD_BY_SIZE_PATTERN_COMPONENT" helpID="com.ibm.hats.doc.hats2757" image="commandLine.gif">
+         <associatedWidgets/>
+      </component>
+      <component className="com.ibm.hats.transform.components.AllInputFieldsPatternComponent" displayName="%ALL_INPUT_FIELDS_PATTERN_COMPONENT" helpID="com.ibm.hats.doc.hats2756" image="commandLine.gif">
+         <associatedWidgets/>
+      </component>
+      <component className="com.ibm.hats.transform.components.InputFieldByPositionPatternComponent" displayName="%INPUT_FIELD_BY_POSITION_PATTERN_COMPONENT" helpID="com.ibm.hats.doc.hats4700" image="commandLine.gif">
+         <associatedWidgets/>
+      </component>
+      <component className="com.ibm.hats.transform.components.CommandLineComponent" displayName="%COMMAND_LINE_COMPONENT" helpID="" image="commandLine.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtInputWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtComboWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtDropdownWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtListWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtPopupWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtRadioButtonWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.DialogComponent" displayName="%DIALOG_COMPONENT" helpID="" image="dialog.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtDialogWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.FieldComponent" displayName="%FIELD_COMPONENT" helpID="" image="field.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtFieldWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.VisualTableComponent" displayName="%VISUAL_TABLE_COMPONENT" helpID="" image="table.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtTableWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtHorizontalBarGraphWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtLineGraphWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtVerticalBarGraphWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.FieldTableComponent" displayName="%FIELD_TABLE_COMPONENT" helpID="" image="table.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtTableWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtHorizontalBarGraphWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtLineGraphWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtVerticalBarGraphWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.TableComponent" displayName="%TABLE_COMPONENT" helpID="" image="table.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtTableWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtHorizontalBarGraphWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtLineGraphWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtVerticalBarGraphWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.FunctionKeyComponent" displayName="%FUNCTION_KEY_COMPONENT" helpID="" image="functionKey.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtButtonWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtLinkWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtButtonTableWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtSLDropdownWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtSLRadioButtonWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtToolbarWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.TextComponent" displayName="%TEXT_COMPONENT" helpID="" image="label.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtLabelWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.InputComponent" displayName="%INPUT_FIELD_COMPONENT" helpID="" image="textField.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtInputWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtComboWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtCheckboxWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtDropdownWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtListWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtPopupWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtRadioButtonWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.SelectionListComponent" displayName="%SELECTION_LIST_COMPONENT" helpID="" image="selectionList.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtSLDropdownWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtSLRadioButtonWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtButtonWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtLinkWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtButtonTableWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtToolbarWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.InputWithHintsComponent" displayName="%INPUT_FIELD_WITH_HINTS_COMPONENT" helpID="" image="textField.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtComboWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtDropdownWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtListWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtPopupWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtRadioButtonWidget"/>
+         </associatedWidgets>
+      </component>
+      <component className="com.ibm.hats.transform.components.ItemSelectionComponent" displayName="%ITEM_SELECTION_COMPONENT" helpID="" image="itemSelectionComponent.gif">
+         <associatedWidgets>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtInputWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtCheckboxWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtComboWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtDropdownWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtItemSelectionLinkWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtListWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtPopupWidget"/>
+            <widget className="com.ibm.hats.rcp.transform.widgets.SwtISRadioButtonWidget"/>
+         </associatedWidgets>
+      </component>
+   </components>
+   <widgets>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtFieldWidget" displayName="%FIELD_COMPONENT" image="field.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtListWidget" displayName="%LIST_WIDGET" image="list.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtLinkWidget" displayName="%LINK_WIDGET" image="links.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtDialogWidget" displayName="%DIALOG_COMPONENT" image="dialog.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtComboWidget" displayName="%COMBO_WIDGET" image="dropdown.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtSLRadioButtonWidget" displayName="%RADIO_BUTTON_SELECTION_WIDGET" image="radioButton.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtSubfilePopupWidget" displayName="%SUBFILE_POPUP_WIDGET" image="subfile.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtCheckboxWidget" displayName="%CHECKBOX_WIDGET" image="checkbox.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtItemSelectionLinkWidget" displayName="%ITEM_SELECTION_LINK_WIDGET" image="itemSelectionLinks.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtPopupWidget" displayName="%POPUP_WIDGET" image="validValues.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtSLDropdownWidget" displayName="%DROP_DOWN_SELECTION_WIDGET" image="dropdown.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtSubfileDropdownWidget" displayName="%SUBFILE_WIDGET" image="subfile.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtInputWidget" displayName="%TEXT_INPUT_WIDGET" image="textField.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtToolbarWidget" displayName="%TOOL_BAR_WIDGET" image="toolbar.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtButtonWidget" displayName="%BUTTON_WIDGET" image="button.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtDropdownWidget" displayName="%DROP_DOWN_DATA_ENTRY_WIDGET" image="dropdown.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtISRadioButtonWidget" displayName="%ITEM_SELECTION_RADIO_BUTTON_WIDGET" image="radioButton.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtRadioButtonWidget" displayName="%RADIO_BUTTON_DATA_ENTRY_WIDGET" image="radioButton.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtLineGraphWidget" displayName="%LINE_GRAPH_WIDGET" image="lineGraph.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtButtonTableWidget" displayName="%BUTTON_TABLE_WIDGET" image="buttonTable.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtTableWidget" displayName="%TABLE_WIDGET" image="table.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtVerticalBarGraphWidget" displayName="%VERTICAL_BAR_GRAPH_WIDGET" image="verticalBarGraph.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtLabelWidget" displayName="%LABEL_WIDGET" image="label.gif"/>
+      <widget className="com.ibm.hats.rcp.transform.widgets.SwtHorizontalBarGraphWidget" displayName="%HORIZONTAL_BAR_GRAPH_WIDGET" image="graph.gif"/>
+   </widgets>
+</ComponentWidgetList>

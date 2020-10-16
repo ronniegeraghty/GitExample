@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><application active="true" configured="true" description="" template="gitExample.templates.Modern">
+   <connections default="main">
+      <connection name="main"/>
+   </connections>
+   <eventPriority/>
+   <classSettings>
+      <class name="com.ibm.hats.common.AppletSettings">
+         <setting name="enable" value="true"/>
+      </class>
+      <class name="com.ibm.hats.common.ApplicationKeypadTag">
+         <setting name="show" value="true"/>
+         <setting name="showDefault" value="true"/>
+         <setting name="showDisconnect" value="false"/>
+         <setting name="showKeyboardToggle" value="false"/>
+         <setting name="showPrintJobs" value="false"/>
+         <setting name="showRefresh" value="true"/>
+         <setting name="showReset" value="true"/>
+         <setting name="showReverse" value="true"/>
+         <setting name="style" value="buttons"/>
+      </class>
+      <class name="com.ibm.hats.common.ClientLocale">
+         <setting name="locale" value="accept-language"/>
+      </class>
+      <class name="com.ibm.hats.common.DBCSSettings">
+         <setting name="showUnprotectedSISOSpace" value="true"/>
+      </class>
+      <class name="com.ibm.hats.common.DefaultConnectionOverrides">
+         <setting name="allowAll" value="false"/>
+      </class>
+      <class name="com.ibm.hats.common.DefaultGVOverrides">
+         <setting name="allowAll" value="false"/>
+      </class>
+      <class name="com.ibm.hats.common.HostKeypadTag">
+         <setting name="show" value="false"/>
+         <setting name="showAltView" value="true"/>
+         <setting name="showAttention" value="true"/>
+         <setting name="showClear" value="true"/>
+         <setting name="showEnter" value="true"/>
+         <setting name="showF1" value="true"/>
+         <setting name="showF10" value="true"/>
+         <setting name="showF11" value="true"/>
+         <setting name="showF12" value="true"/>
+         <setting name="showF13" value="true"/>
+         <setting name="showF14" value="true"/>
+         <setting name="showF15" value="true"/>
+         <setting name="showF16" value="true"/>
+         <setting name="showF17" value="true"/>
+         <setting name="showF18" value="true"/>
+         <setting name="showF19" value="true"/>
+         <setting name="showF2" value="true"/>
+         <setting name="showF20" value="true"/>
+         <setting name="showF21" value="true"/>
+         <setting name="showF22" value="true"/>
+         <setting name="showF23" value="true"/>
+         <setting name="showF24" value="true"/>
+         <setting name="showF3" value="true"/>
+         <setting name="showF4" value="true"/>
+         <setting name="showF5" value="true"/>
+         <setting name="showF6" value="true"/>
+         <setting name="showF7" value="true"/>
+         <setting name="showF8" value="true"/>
+         <setting name="showF9" value="true"/>
+         <setting name="showFieldExit" value="true"/>
+         <setting name="showFieldMinus" value="true"/>
+         <setting name="showFieldPlus" value="true"/>
+         <setting name="showHelp" value="true"/>
+         <setting name="showPA1" value="true"/>
+         <setting name="showPA2" value="true"/>
+         <setting name="showPA3" value="true"/>
+         <setting name="showPageDown" value="true"/>
+         <setting name="showPageUp" value="true"/>
+         <setting name="showPrint" value="true"/>
+         <setting name="showReset" value="true"/>
+         <setting name="showSystemRequest" value="true"/>
+         <setting name="style" value="buttons"/>
+      </class>
+      <class name="com.ibm.hats.common.KeyboardSupport">
+         <setting name="enable" value="true"/>
+         <setting name="initialState" value="true"/>
+         <setting name="supportAllKeys" value="true"/>
+      </class>
+      <class name="com.ibm.hats.common.MacroContentAssistance">
+         <setting name="allowAll" value="true"/>
+      </class>
+      <class name="com.ibm.hats.common.OIA">
+         <setting name="active" value="true"/>
+         <setting name="appletActive" value="true"/>
+         <setting name="autoAdvanceIndicator" value="false"/>
+         <setting name="bidiControls" value="true"/>
+         <setting name="cssClass" value="statusArea"/>
+         <setting name="cursorPosition" value="false"/>
+         <setting name="cursorRowColumn" value="true"/>
+         <setting name="fieldData" value="false"/>
+         <setting name="inputInhibited" value="true"/>
+         <setting name="insertMode" value="true"/>
+         <setting name="layout" value="horizontal"/>
+         <setting name="msgWaiting" value="true"/>
+         <setting name="sslCheck" value="true"/>
+         <setting name="systemWait" value="true"/>
+         <setting name="typeAheadField" value="false"/>
+      </class>
+      <class name="com.ibm.hats.common.RuntimeSettings">
+         <setting name="autoEraseFields" value="true"/>
+         <setting name="enableArrowKeyNavigation" value="false"/>
+         <setting name="enableAutoAdvance" value="false"/>
+         <setting name="enableAutoTabOn" value="false"/>
+         <setting name="enableCompression" value="false"/>
+         <setting name="enableOverwriteMode" value="true"/>
+         <setting name="enableTypeAhead" value="false"/>
+         <setting name="suppressUnchangedData" value="false"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtButtonTableWidget">
+         <setting name="backgroundColor" value=""/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtButtonWidget">
+         <setting name="captionType" value="DESCRIPTION"/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="layout" value="TABLE"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="separator" value=" "/>
+         <setting name="trimCaptions" value="true"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtCheckboxWidget">
+         <setting name="caption" value=""/>
+         <setting name="captionSource" value="COMPONENT"/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="deselectValue" value="N"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="selectValue" value="Y"/>
+         <setting name="trimCaptions" value="true"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtComboWidget">
+         <setting name="backgroundColor" value=""/>
+         <setting name="caption" value=""/>
+         <setting name="captionSource" value="COMPONENT"/>
+         <setting name="captionVariable" value=""/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="inputSpacing" value="5"/>
+         <setting name="mapExtendedAttributes" value="false"/>
+         <setting name="maxlen" value="5"/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="overrideMaxLen" value="false"/>
+         <setting name="preserveColors" value="false"/>
+         <setting name="sharedGVs" value="false"/>
+         <setting name="stringListItems" value=""/>
+         <setting name="useGlobalVariable" value="false"/>
+         <setting name="useHints" value="true"/>
+         <setting name="useString" value="true"/>
+         <setting name="valueVariable" value=""/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtDropdownWidget">
+         <setting name="autoSubmitKey" value="[enter]"/>
+         <setting name="autoSubmitOnSelect" value="false"/>
+         <setting name="backgroundColor" value=""/>
+         <setting name="caption" value=""/>
+         <setting name="captionSource" value="COMPONENT"/>
+         <setting name="captionType" value="DESCRIPTION"/>
+         <setting name="captionVariable" value=""/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="sharedGVs" value="false"/>
+         <setting name="showSubmitButton" value="false"/>
+         <setting name="size" value="5"/>
+         <setting name="stringListItems" value=""/>
+         <setting name="submitButtonCaption" value="Submit"/>
+         <setting name="useGlobalVariable" value="false"/>
+         <setting name="useHints" value="true"/>
+         <setting name="useString" value="true"/>
+         <setting name="valueVariable" value=""/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtFieldWidget">
+         <setting name="alignment" value="NORMAL"/>
+         <setting name="autoKeyForProtectedFieldLinks" value=""/>
+         <setting name="backgroundColor" value=""/>
+         <setting name="enableNumericLock" value="false"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="mapExtendedAttributes" value="false"/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="preserveColors" value="true"/>
+         <setting name="readOnly" value="false"/>
+         <setting name="showLinksForProtectedFields" value="false"/>
+         <setting name="stripUnderlinesOnInputs" value="false"/>
+         <setting name="trimLinks" value="true"/>
+         <setting name="trimSpacesOnInputs" value="false"/>
+         <setting name="usingMonospaceFont" value="true"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtHorizontalBarGraphWidget">
+         <setting name="alternateText" value="Graph.jpg"/>
+         <setting name="axisColor" value="#000000"/>
+         <setting name="backgroundColor" value="#ffffff"/>
+         <setting name="backgroundImage" value=""/>
+         <setting name="defaultFont" value="SansSerif-PLAIN-12"/>
+         <setting name="extractSource" value="col"/>
+         <setting name="height" value="400"/>
+         <setting name="labelColor" value="#000000"/>
+         <setting name="textAntialiasing" value="true"/>
+         <setting name="width" value="400"/>
+         <setting name="xAxisTitle" value="X-axis"/>
+         <setting name="yAxisTitle" value="Y-axis"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtInputWidget">
+         <setting name="backgroundColor" value=""/>
+         <setting name="caption" value=""/>
+         <setting name="captionSource" value="COMPONENT"/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="enableCheckAttributes" value="true"/>
+         <setting name="enableInputRestrictions" value="true"/>
+         <setting name="enableNumericLock" value="false"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="inputSpacing" value="5"/>
+         <setting name="mapExtendedAttributes" value="false"/>
+         <setting name="maxlen" value="5"/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="overrideMaxLen" value="false"/>
+         <setting name="overrideSize" value="false"/>
+         <setting name="preserveColors" value="false"/>
+         <setting name="readOnly" value="false"/>
+         <setting name="size" value="5"/>
+         <setting name="stripUnderlinesOnInputs" value="false"/>
+         <setting name="trimSpacesOnInputs" value="false"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtISRadioButtonWidget">
+         <setting name="PROPERTY_SELECTIONVAL" value="/"/>
+         <setting name="autoSubmitKey" value="[enter]"/>
+         <setting name="autoSubmitOnSelect" value="true"/>
+         <setting name="caption" value=""/>
+         <setting name="captionSource" value="COMPONENT"/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="inputSpacing" value="3"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="showSubmitButton" value="false"/>
+         <setting name="submitButtonCaption" value="Submit"/>
+         <setting name="trimCaptions" value="true"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtLabelWidget">
+         <setting name="backgroundColor" value=""/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="trim" value="true"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtLineGraphWidget">
+         <setting name="alternateText" value="Graph.jpg"/>
+         <setting name="axisColor" value="#000000"/>
+         <setting name="backgroundColor" value="#ffffff"/>
+         <setting name="backgroundImage" value=""/>
+         <setting name="defaultFont" value="SansSerif-PLAIN-12"/>
+         <setting name="extractSource" value="col"/>
+         <setting name="height" value="400"/>
+         <setting name="labelColor" value="#000000"/>
+         <setting name="textAntialiasing" value="true"/>
+         <setting name="width" value="400"/>
+         <setting name="xAxisTitle" value="X-axis"/>
+         <setting name="yAxisTitle" value="Y-axis"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtLinkWidget">
+         <setting name="backgroundColor" value=""/>
+         <setting name="captionType" value="BOTH"/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="layout" value="TABLE"/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="separator" value=" | "/>
+         <setting name="trimCaptions" value="true"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtListWidget">
+         <setting name="autoSubmitKey" value="[enter]"/>
+         <setting name="autoSubmitOnSelect" value="false"/>
+         <setting name="backgroundColor" value=""/>
+         <setting name="caption" value=""/>
+         <setting name="captionSource" value="COMPONENT"/>
+         <setting name="captionType" value="DESCRIPTION"/>
+         <setting name="captionVariable" value=""/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="sharedGVs" value="false"/>
+         <setting name="showSubmitButton" value="false"/>
+         <setting name="size" value="5"/>
+         <setting name="stringListItems" value=""/>
+         <setting name="submitButtonCaption" value="Submit"/>
+         <setting name="useGlobalVariable" value="false"/>
+         <setting name="useHints" value="true"/>
+         <setting name="useString" value="true"/>
+         <setting name="valueVariable" value=""/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtPopupWidget">
+         <setting name="backgroundColor" value=""/>
+         <setting name="caption" value=""/>
+         <setting name="captionSource" value="COMPONENT"/>
+         <setting name="captionType" value="DESCRIPTION"/>
+         <setting name="captionVariable" value=""/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="instructions" value="Select an option:"/>
+         <setting name="launcherCaption" value="..."/>
+         <setting name="launcherImage" value="images/validValues.gif"/>
+         <setting name="launcherType" value="BUTTON"/>
+         <setting name="mapExtendedAttributes" value="false"/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="preserveColors" value="false"/>
+         <setting name="readOnly" value="false"/>
+         <setting name="sharedGVs" value="false"/>
+         <setting name="shellCaption" value=""/>
+         <setting name="stringListItems" value=""/>
+         <setting name="useGlobalVariable" value="false"/>
+         <setting name="useHints" value="true"/>
+         <setting name="useString" value="true"/>
+         <setting name="valueVariable" value=""/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtRadioButtonWidget">
+         <setting name="autoSubmitOnSelect" value="false"/>
+         <setting name="caption" value=""/>
+         <setting name="captionSource" value="COMPONENT"/>
+         <setting name="captionType" value="DESCRIPTION"/>
+         <setting name="captionVariable" value=""/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="inputSpacing" value="3"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="sharedGVs" value="false"/>
+         <setting name="showSubmitButton" value="false"/>
+         <setting name="stringListItems" value=""/>
+         <setting name="trimCaptions" value="true"/>
+         <setting name="useGlobalVariable" value="false"/>
+         <setting name="useHints" value="true"/>
+         <setting name="useString" value="true"/>
+         <setting name="valueVariable" value=""/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtSLDropdownWidget">
+         <setting name="autoSubmitKey" value="[enter]"/>
+         <setting name="autoSubmitOnSelect" value="true"/>
+         <setting name="backgroundColor" value=""/>
+         <setting name="captionType" value="BOTH"/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="showSubmitButton" value="false"/>
+         <setting name="submitButtonCaption" value="Submit"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtSLRadioButtonWidget">
+         <setting name="autoSubmitKey" value="[enter]"/>
+         <setting name="autoSubmitOnSelect" value="true"/>
+         <setting name="caption" value=""/>
+         <setting name="captionSource" value="VALUE"/>
+         <setting name="captionType" value="BOTH"/>
+         <setting name="columnsPerRow" value="1"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="inputSpacing" value="3"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="showSubmitButton" value="false"/>
+         <setting name="submitButtonCaption" value="Submit"/>
+         <setting name="trimCaptions" value="true"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtTableWidget">
+         <setting name="backgroundColor" value=""/>
+         <setting name="border" value="0"/>
+         <setting name="fileExtname" value="csv"/>
+         <setting name="filenamePrefix" value="spreadsheet"/>
+         <setting name="font" value="(default)-(default)-(default)"/>
+         <setting name="foregroundColor" value=""/>
+         <setting name="headerColumns" value=""/>
+         <setting name="headerRows" value=""/>
+         <setting name="linkCaption" value="Export..."/>
+         <setting name="linkType" value="button"/>
+         <setting name="mapExtendedAttributes" value="false"/>
+         <setting name="overrideColor" value="false"/>
+         <setting name="overrideFont" value="false"/>
+         <setting name="preserveColors" value="false"/>
+         <setting name="provideSpreadsheetFile" value="false"/>
+         <setting name="readOnly" value="false"/>
+         <setting name="stripUnderlinesOnInputs" value="false"/>
+         <setting name="trimHeaders" value="true"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtToolbarWidget">
+         <setting name="captionType" value="DESCRIPTION"/>
+         <setting name="contributeToMain" value="true"/>
+         <setting name="defaultImage" value=""/>
+         <setting name="displayAs" value="TEXT"/>
+         <setting name="imageMappings" value=""/>
+         <setting name="projectImageMappings" value="DESCRIPTION,contains,Exit|Close|Quit,images/exit.gif;DESCRIPTION,contains,Cancel|Delete,org.eclipse.ui/icons/full/obj16/delete_obj.gif;DESCRIPTION,contains,Next|Forward|Fwd|Down|More|OK,org.eclipse.ui/icons/full/elcl16/forward_nav.gif;DESCRIPTION,contains,Previous|Back|Bck|Up,org.eclipse.ui/icons/full/elcl16/backward_nav.gif;DESCRIPTION,contains,File|Document,org.eclipse.ui/icons/full/obj16/file_obj.gif;DESCRIPTION,contains,Folder,org.eclipse.ui/icons/full/obj16/fldr_obj.gif;DESCRIPTION,contains,Help|Info|How to,org.eclipse.ui/icons/full/elcl16/linkto_help.gif;DESCRIPTION,contains,Home|Main|Initial,org.eclipse.ui/icons/full/elcl16/home_nav.gif;DESCRIPTION,contains,Add,org.eclipse.ui/icons/full/obj16/add_obj.gif;DESCRIPTION,contains,Remove all|Clear all,images/removeall.gif;DESCRIPTION,contains,Remove,org.eclipse.ui/icons/full/obj16/delete_obj.gif;DESCRIPTION,contains,Config,images/config.gif;DESCRIPTION,contains,Clear,images/clear.gif;DESCRIPTION,contains,Error,images/error.gif;DESCRIPTION,contains,Warning,images/warning.gif;DESCRIPTION,contains,Parameter|Report|Table,images/properties.gif;DESCRIPTION,contains,Task,images/history_list.gif;DESCRIPTION,contains,Refresh|Reload,images/refresh.gif;DESCRIPTION,contains,Print,images/print.gif;DESCRIPTION,contains,Details,images/details.gif;DESCRIPTION,contains,Search|Find,images/search.gif;"/>
+         <setting name="renderItemsTogether" value="false"/>
+         <setting name="singleItemCaption" value="Actions"/>
+         <setting name="singleItemImage" value=""/>
+         <setting name="toolTipSource" value="BOTH"/>
+         <setting name="useProjectLevelMappings" value="true"/>
+      </class>
+      <class name="com.ibm.hats.rcp.transform.widgets.SwtVerticalBarGraphWidget">
+         <setting name="alternateText" value="Graph.jpg"/>
+         <setting name="axisColor" value="#000000"/>
+         <setting name="backgroundColor" value="#ffffff"/>
+         <setting name="backgroundImage" value=""/>
+         <setting name="defaultFont" value="SansSerif-PLAIN-12"/>
+         <setting name="extractSource" value="col"/>
+         <setting name="height" value="400"/>
+         <setting name="labelColor" value="#000000"/>
+         <setting name="textAntialiasing" value="true"/>
+         <setting name="width" value="400"/>
+         <setting name="xAxisTitle" value="X-axis"/>
+         <setting name="yAxisTitle" value="Y-axis"/>
+      </class>
+      <class name="com.ibm.hats.rcp.ui.views.ToolBarSettings">
+         <setting name="displayAs" value="TEXT"/>
+         <setting name="show" value="true"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.CommandLineComponent">
+         <setting name="token" value="==&gt;"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.DialogComponent">
+         <setting name="acceptOutsideCursorAt" value="1"/>
+         <setting name="horizontalBorder" value="{p rv}|.|-|_"/>
+         <setting name="interact" value="false"/>
+         <setting name="matchSides" value="true"/>
+         <setting name="minCols" value="3"/>
+         <setting name="minRows" value="3"/>
+         <setting name="takeFirstMatch" value="false"/>
+         <setting name="validateCursor" value="true"/>
+         <setting name="verticalBorder" value="{p rv}|:|&amp;vl."/>
+      </class>
+      <class name="com.ibm.hats.transform.components.FieldComponent">
+         <setting name="enableCharacterLevelAttributes" value="false"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.FieldTableComponent">
+         <setting name="excludeCols" value=""/>
+         <setting name="excludeRows" value=""/>
+         <setting name="includeEmptyRows" value="true"/>
+         <setting name="minColumns" value="1"/>
+         <setting name="minRows" value="1"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.FunctionKeyComponent">
+         <setting name="delimiter" value="=| - |-| = |:"/>
+         <setting name="reqValueAfterDescription" value="  "/>
+         <setting name="reqValueBeforeLeadingToken" value=" "/>
+         <setting name="searchType" value="allDelimitersFirst"/>
+         <setting name="startDelimiter" value="PF#|F#| #=|#"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.HtmlDDSComponent">
+         <setting name="blockTags" value="form frame"/>
+         <setting name="filterType" value="blacklist"/>
+         <setting name="ignoreTags" value="hr td tr table"/>
+         <setting name="keepTags" value=""/>
+         <setting name="useTags" value=""/>
+      </class>
+      <class name="com.ibm.hats.transform.components.InputComponent">
+         <setting name="clipInputFields" value="true"/>
+         <setting name="extractCaptions" value="true"/>
+         <setting name="stripAfterDelimiters" value=":|-|."/>
+         <setting name="stripCaptions" value="true"/>
+         <setting name="stripReplaceWith" value=":"/>
+         <setting name="trimCaptions" value="true"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.InputWithHintsComponent">
+         <setting name="clipInputFields" value="true"/>
+         <setting name="extractCaptions" value="true"/>
+         <setting name="hintsDelimiter" value="=|-"/>
+         <setting name="hintsEnd" value=")|]|}|&gt;| "/>
+         <setting name="hintsLeadingTokenType" value="EITHER"/>
+         <setting name="hintsSeparator" value=",|or"/>
+         <setting name="hintsStart" value="(|[|{|&lt;| "/>
+         <setting name="minimumReqHints" value="1"/>
+         <setting name="stripAfterDelimiters" value=":|-|."/>
+         <setting name="stripCaptions" value="true"/>
+         <setting name="stripReplaceWith" value=":"/>
+         <setting name="trimCaptions" value="true"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.SelectionListComponent">
+         <setting name="actionKey" value="[enter]"/>
+         <setting name="convertActionNumber" value="true"/>
+         <setting name="delimiter" value=". |- "/>
+         <setting name="leadingTokenType" value="EITHER"/>
+         <setting name="maxLeadingTokenLength" value="4"/>
+         <setting name="maxSpaceAfterDelimiter" value="5"/>
+         <setting name="minimumReqOptions" value="2"/>
+         <setting name="placeholders" value="ACTUAL"/>
+         <setting name="reqValueBeforeLeadingToken" value="  "/>
+         <setting name="sortBy" value="ITEM"/>
+         <setting name="sortOrder" value="ASCENDING"/>
+         <setting name="sortSelections" value="false"/>
+         <setting name="stringAfterCaption" value="  "/>
+         <setting name="target" value="NEXT"/>
+         <setting name="targetFieldCol" value="-1"/>
+         <setting name="targetFieldRow" value="-1"/>
+         <setting name="useAction" value="true"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.TableComponent">
+         <setting name="columnBreaks" value=""/>
+         <setting name="endCol" value="80"/>
+         <setting name="endRow" value="22"/>
+         <setting name="excludeCols" value=""/>
+         <setting name="excludeRows" value=""/>
+         <setting name="includeEmptyRows" value="true"/>
+         <setting name="numberOfTitleRows" value="0"/>
+         <setting name="startCol" value="1"/>
+         <setting name="startRow" value="4"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.TextComponent">
+         <setting name="preserveLineBreaks" value="true"/>
+      </class>
+      <class name="com.ibm.hats.transform.components.VisualTableComponent">
+         <setting name="columnDelimiter" value=" "/>
+         <setting name="excludeCols" value=""/>
+         <setting name="excludeRows" value=""/>
+         <setting name="includeEmptyRows" value="true"/>
+         <setting name="minColumns" value="1"/>
+         <setting name="minRows" value="1"/>
+      </class>
+      <class name="com.ibm.hats.transform.DefaultRendering">
+         <setting name="applicationDefaultRenderingSetName" value="main"/>
+      </class>
+   </classSettings>
+   <textReplacement/>
+   <defaultRendering default="main">
+      <renderingSet description="" name="main">
+         <renderingItem associatedScreen="" componentIdentifier="" description="Dialogs" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="1" type="com.ibm.hats.transform.components.DialogComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtDialogWidget">
+            <componentSettings/>
+            <widgetSettings/>
+            <textReplacements/>
+         </renderingItem>
+         <renderingItem associatedScreen="" componentIdentifier="" description="Selection lists" enabled="true" endCol="-1" endRow="22" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="3" type="com.ibm.hats.transform.components.SelectionListComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtButtonTableWidget">
+            <componentSettings>
+               <setting name="actionKey" value="[enter]"/>
+               <setting name="convertActionNumber" value="true"/>
+               <setting name="delimiter" value=". |- "/>
+               <setting name="leadingTokenType" value="EITHER"/>
+               <setting name="maxLeadingTokenLength" value="4"/>
+               <setting name="minimumReqOptions" value="2"/>
+               <setting name="reqValueBeforeLeadingToken" value="  "/>
+               <setting name="sortBy" value="ITEM"/>
+               <setting name="sortOrder" value="ASCENDING"/>
+               <setting name="sortSelections" value="false"/>
+               <setting name="stringAfterCaption" value="  "/>
+               <setting name="target" value="NEXT"/>
+               <setting name="targetFieldCol" value="-1"/>
+               <setting name="targetFieldRow" value="-1"/>
+            </componentSettings>
+            <widgetSettings/>
+            <textReplacements/>
+         </renderingItem>
+         <renderingItem associatedScreen="" componentIdentifier="" description="Function keys" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="20" type="com.ibm.hats.transform.components.FunctionKeyComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtToolbarWidget">
+            <componentSettings/>
+            <widgetSettings/>
+            <textReplacements/>
+         </renderingItem>
+         <renderingItem associatedScreen="" componentIdentifier="" description="URLs" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="1" type="com.ibm.hats.transform.components.URLComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtLinkWidget">
+            <componentSettings/>
+            <widgetSettings>
+               <setting name="captionType" value="TOKEN"/>
+               <setting name="columnsPerRow" value="1"/>
+               <setting name="layout" value="SEPARATED"/>
+               <setting name="linkStyleClass" value="HATSLINK"/>
+               <setting name="separator" value=" | "/>
+               <setting name="style" value=""/>
+               <setting name="target" value="_blank"/>
+            </widgetSettings>
+            <textReplacements/>
+         </renderingItem>
+         <renderingItem associatedScreen="" componentIdentifier="" description="Remaining text and input fields" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="1" type="com.ibm.hats.transform.components.FieldComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtFieldWidget">
+            <componentSettings/>
+            <widgetSettings/>
+            <textReplacements/>
+         </renderingItem>
+      </renderingSet>
+   </defaultRendering>
+   <globalRules/>
+   <receiveProperties/>
+</application>
