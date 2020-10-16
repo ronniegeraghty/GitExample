@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><application active="true" configured="true" description="Test" template="gitExample.templates.Modern">
+<?xml version="1.0" encoding="UTF-8"?><application active="true" configured="true" description="Demo" template="gitExample.templates.Modern">
    <connections default="main">
       <connection name="main"/>
    </connections>
