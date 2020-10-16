@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><application active="true" configured="true" description="" template="gitExample.templates.Modern">
+<?xml version="1.0" encoding="UTF-8"?><application active="true" configured="true" description="Test" template="gitExample.templates.Modern">
    <connections default="main">
       <connection name="main"/>
    </connections>
@@ -538,12 +538,12 @@
    <textReplacement/>
    <defaultRendering default="main">
       <renderingSet description="" name="main">
-         <renderingItem associatedScreen="" componentIdentifier="" description="Dialogs" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="1" type="com.ibm.hats.transform.components.DialogComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtDialogWidget">
+         <renderingItem associatedScreen="" componentIdentifier="" description="" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="Dialogs" startCol="1" startRow="1" type="com.ibm.hats.transform.components.DialogComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtDialogWidget">
             <componentSettings/>
             <widgetSettings/>
             <textReplacements/>
          </renderingItem>
-         <renderingItem associatedScreen="" componentIdentifier="" description="Selection lists" enabled="true" endCol="-1" endRow="22" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="3" type="com.ibm.hats.transform.components.SelectionListComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtButtonTableWidget">
+         <renderingItem associatedScreen="" componentIdentifier="" description="" enabled="true" endCol="-1" endRow="22" keepOutputTogether="false" keepRegionSize="false" name="Selection lists" startCol="1" startRow="3" type="com.ibm.hats.transform.components.SelectionListComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtButtonTableWidget">
             <componentSettings>
                <setting name="actionKey" value="[enter]"/>
                <setting name="convertActionNumber" value="true"/>
@@ -563,12 +563,12 @@
             <widgetSettings/>
             <textReplacements/>
          </renderingItem>
-         <renderingItem associatedScreen="" componentIdentifier="" description="Function keys" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="20" type="com.ibm.hats.transform.components.FunctionKeyComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtToolbarWidget">
+         <renderingItem associatedScreen="" componentIdentifier="" description="" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="Function keys" startCol="1" startRow="20" type="com.ibm.hats.transform.components.FunctionKeyComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtToolbarWidget">
             <componentSettings/>
             <widgetSettings/>
             <textReplacements/>
          </renderingItem>
-         <renderingItem associatedScreen="" componentIdentifier="" description="URLs" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="1" type="com.ibm.hats.transform.components.URLComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtLinkWidget">
+         <renderingItem associatedScreen="" componentIdentifier="" description="" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="URLs" startCol="1" startRow="1" type="com.ibm.hats.transform.components.URLComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtLinkWidget">
             <componentSettings/>
             <widgetSettings>
                <setting name="captionType" value="TOKEN"/>
@@ -581,7 +581,7 @@
             </widgetSettings>
             <textReplacements/>
          </renderingItem>
-         <renderingItem associatedScreen="" componentIdentifier="" description="Remaining text and input fields" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="" startCol="1" startRow="1" type="com.ibm.hats.transform.components.FieldComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtFieldWidget">
+         <renderingItem associatedScreen="" componentIdentifier="" description="" enabled="true" endCol="-1" endRow="-1" keepOutputTogether="false" keepRegionSize="false" name="Remaining text and input fields" startCol="1" startRow="1" type="com.ibm.hats.transform.components.FieldComponent" widget="com.ibm.hats.rcp.transform.widgets.SwtFieldWidget">
             <componentSettings/>
             <widgetSettings/>
             <textReplacements/>
